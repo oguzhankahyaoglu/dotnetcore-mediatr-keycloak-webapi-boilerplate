@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SampleAPI.Common\SampleAPI.Common.csproj" />
+      <ProjectReference Include="..\SampleAPI.Data\SampleAPI.Data.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+  
+      <PackageReference Include="MediatR" Version="7.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+     
+    </ItemGroup>
+
+</Project>
